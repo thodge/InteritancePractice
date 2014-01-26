@@ -1,15 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 
 package myAbstract;
 
-/**
- *
- * @author Tammie
- */
+
 public abstract class Employee {
+    private static int employeeSSN;
+    private static String hireDate;
+    private static int employeeID;
     
 }
