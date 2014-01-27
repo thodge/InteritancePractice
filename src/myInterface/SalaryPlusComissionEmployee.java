@@ -11,6 +11,15 @@ public class SalaryPlusComissionEmployee extends SalariedEmployee {
     private int commisionRate;
     private int salaryPlusCommisionRate;
 
+    SalaryPlusComissionEmployee(String firstName, String lastName, int employeeSSN,
+            String hireDate) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.employeeSSN = employeeSSN;
+        this.hireDate = hireDate;
+
+    
+
     public int getCommisionRate() {
         return commisionRate;
     }

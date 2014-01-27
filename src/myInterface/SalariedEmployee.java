@@ -8,6 +8,13 @@ public class SalariedEmployee implements Employee {
     private String firstName;
     private String lastName;
 
-    @Override
-    public abstract double getEmployeePay();
+    SalariedEmployee(String firstName, String lastName, int employeeSSN,
+            String hireDate) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.employeeSSN = employeeSSN;
+        this.hireDate = hireDate;
+
+        @Override
+        public abstract double getEmployeePay();
 }
