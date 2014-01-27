@@ -2,6 +2,12 @@ package myInterface;
 
 public class SalaryPlusComissionEmployee extends SalariedEmployee {
 
+    private int hourlyPayRate;
+    private int employeeSSN;
+    private String hireDate;
+    private String firstName;
+    private String lastName;
+
     private int commisionRate;
     private int salaryPlusCommisionRate;
 
