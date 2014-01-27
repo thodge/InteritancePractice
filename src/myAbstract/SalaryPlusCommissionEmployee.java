@@ -5,6 +5,10 @@ public class SalaryPlusCommissionEmployee extends SalariedEmployee {
     private int commisionRate;
     private int salaryPlusCommisionRate;
 
+    public SalaryPlusCommissionEmployee(String firstName, String lastName, int employeeSSN, String hireDate) {
+        super(firstName, lastName, employeeSSN, hireDate);
+    }
+
     public int getCommisionRate() {
         return commisionRate;
     }

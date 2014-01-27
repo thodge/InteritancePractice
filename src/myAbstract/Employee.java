@@ -14,6 +14,7 @@ public abstract class Employee {
         this.lastName = lastName;
         this.employeeSSN = employeeSSN;
         this.hireDate = hireDate;
+    }
 
     
 
