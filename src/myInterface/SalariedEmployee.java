@@ -14,6 +14,7 @@ public class SalariedEmployee implements Employee {
         this.lastName = lastName;
         this.employeeSSN = employeeSSN;
         this.hireDate = hireDate;
+    }
 
         @Override
         public abstract double getEmployeePay();

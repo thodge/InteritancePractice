@@ -15,7 +15,7 @@ public class HourlyEmployee implements Employee {
         this.employeeSSN = employeeSSN;
         this.hireDate = hireDate;
     
-
+    }
 
     
 

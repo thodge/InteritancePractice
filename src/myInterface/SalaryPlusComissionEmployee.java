@@ -17,6 +17,7 @@ public class SalaryPlusComissionEmployee extends SalariedEmployee {
         this.lastName = lastName;
         this.employeeSSN = employeeSSN;
         this.hireDate = hireDate;
+    }
 
     
 
