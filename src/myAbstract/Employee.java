@@ -4,33 +4,53 @@ package myAbstract;
 
 
 public abstract class Employee {
-    private static int employeeSSN;
-    private static String hireDate;
-    private static int employeeID;
+    private double employeeSSN;
+    private String hireDate;
+    private int employeeID;
+    private String firstName;
+    private String lastName;
 
-    public static int getEmployeeSSN() {
+    public double getEmployeeSSN() {
         return employeeSSN;
     }
 
-    public static void setEmployeeSSN(int employeeSSN) {
-        Employee.employeeSSN = employeeSSN;
+    public void setEmployeeSSN(double employeeSSN) {
+        this.employeeSSN = employeeSSN;
     }
 
-    public static String getHireDate() {
+    public String getHireDate() {
         return hireDate;
     }
 
-    public static void setHireDate(String hireDate) {
-        Employee.hireDate = hireDate;
+    public void setHireDate(String hireDate) {
+        this.hireDate = hireDate;
     }
 
-    public static int getEmployeeID() {
+    public int getEmployeeID() {
         return employeeID;
     }
 
-    public static void setEmployeeID(int employeeID) {
-        Employee.employeeID = employeeID;
+    public void setEmployeeID(int employeeID) {
+        this.employeeID = employeeID;
     }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+    
+    
     
     
     
