@@ -2,39 +2,40 @@ package myInterface;
 
 public class SalaryPlusComissionEmployee extends SalariedEmployee {
 
-    private int hourlyPayRate;
+    private double salary;
     private int employeeSSN;
     private String hireDate;
     private String firstName;
     private String lastName;
 
-    private int commisionRate;
-    private int salaryPlusCommisionRate;
+    private double commisionRate;
+    private double salaryPlusCommisionRate;
 
     SalaryPlusComissionEmployee(String firstName, String lastName, int employeeSSN,
-            String hireDate) {
+            String hireDate, double salary) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.employeeSSN = employeeSSN;
         this.hireDate = hireDate;
+        this.salary = salary;
     }
 
     
 
-    public int getCommisionRate() {
+    public double getCommisionRate() {
         return commisionRate;
     }
 
-    public void setCommisionRate(int commisionRate) {
+    public void setCommisionRate(double commisionRate) {
         this.commisionRate = commisionRate;
     }
 
-    public int getSalaryPlusCommisionRate(int commissionRate, int salaryRate) {
-        salaryPlusCommisionRate = commissionRate + salaryRate;
+    public double getSalaryPlusCommisionRate(double commissionRate, double salary) {
+        salaryPlusCommisionRate = commissionRate + salary;
         return salaryPlusCommisionRate;
     }
 
-    public void setSalaryPlusCommisionRate(int salaryPlusCommisionRate) {
+    public void setSalaryPlusCommisionRate(double salaryPlusCommisionRate) {
         this.salaryPlusCommisionRate = salaryPlusCommisionRate;
     }
 

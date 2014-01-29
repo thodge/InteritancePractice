@@ -2,9 +2,9 @@ package myInterface;
 
 public interface Employee {
 
-    public abstract void employeeSSN();
+    public void employeeSSN();
 
-    public abstract void hireDate();
+    public void hireDate();
 
     public abstract void firstName();
 
