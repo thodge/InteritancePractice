@@ -2,11 +2,12 @@ package myInterface;
 
 public class HourlyEmployee implements Employee {
 
-    private int hourlyPayRate;
-    private int employeeSSN;
+    private double employeePay;
+    private double employeeSSN;
     private String hireDate;
     private String firstName;
     private String lastName;
+    private double employeeID;
 
     HourlyEmployee(String firstName, String lastName, int employeeSSN,
             String hireDate) {
@@ -17,44 +18,61 @@ public class HourlyEmployee implements Employee {
     
     }
 
-    
-
-    public int getHourlyPayRate() {
-        return hourlyPayRate;
-    }
-
-    public void setHourlyPayRate(int hourlyPayRate) {
-        this.hourlyPayRate = hourlyPayRate;
-    }
-
-    @Override
-    public void employeeSSN() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void hireDate() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void firstName() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void lastName() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
     @Override
     public double getEmployeePay() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return employeePay;
+    }
+
+    public void setEmployeePay(double employeePay) {
+        this.employeePay = employeePay;
+    }
+
+
+
+    @Override
+    public double getEmployeeSSN() {
+        return employeeSSN;
+    }
+
+    public void setEmployeeSSN(int employeeSSN) {
+        this.employeeSSN = employeeSSN;
     }
 
     @Override
-    public double employeeID() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public String getHireDate() {
+        return hireDate;
     }
+
+    public void setHireDate(String hireDate) {
+        this.hireDate = hireDate;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    @Override
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    @Override
+    public double getEmployeeID() {
+        return employeeID;
+    }
+
+    public void setEmployeeID(double employeeID) {
+        this.employeeID = employeeID;
+    }
+
+
 
 }

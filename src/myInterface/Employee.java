@@ -2,11 +2,11 @@ package myInterface;
 
 public interface Employee {
 
-    public abstract void employeeSSN();
-    public abstract void hireDate();
-    public abstract void firstName();
-    public abstract void lastName();
+    public abstract double getEmployeeSSN();
+    public abstract String getHireDate();
+    public abstract String getFirstName();
+    public abstract String getLastName();
     public abstract double getEmployeePay();
-    public abstract double employeeID();
+    public abstract double getEmployeeID();
 
 }
