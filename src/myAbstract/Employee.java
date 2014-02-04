@@ -8,8 +8,7 @@ public abstract class Employee {
     private String firstName;
     private String lastName;
 
-    Employee(String firstName, String lastName, int employeeSSN,
-            String hireDate) {
+    Employee() {
         this.firstName = firstName;
         this.lastName = lastName;
         this.employeeSSN = employeeSSN;

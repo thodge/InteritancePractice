@@ -7,7 +7,7 @@ public class SalariedEmployee extends Employee{
     private int salaryPayRate;
 
     public SalariedEmployee(String firstName, String lastName, int employeeSSN, String hireDate) {
-        super(firstName, lastName, employeeSSN, hireDate);
+        super();
     }
 
     public int getSalaryPayRate() {

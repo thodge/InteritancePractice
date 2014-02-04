@@ -11,8 +11,7 @@ public class SalariedEmployee implements Employee {
     
 //    public SalariedEmployee() {}
 
-    public SalariedEmployee(String firstName, String lastName, int employeeSSN,
-            String hireDate, double employeePay) {
+    public SalariedEmployee() {
         this.firstName = firstName;
         this.lastName = lastName;
         this.employeeSSN = employeeSSN;

@@ -11,16 +11,16 @@ public class SalaryPlusComissionEmployee extends SalariedEmployee {
     private double commisionRate;
     private double salaryPlusCommisionRate;
 
-//    public SalaryPlusComissionEmployee(double employeePay, double employeeSSN, String hireDate, String firstName, String lastName, double employeeID, double salaryPlusCommisionRate, String firstName, String lastName, int employeeSSN, String hireDate, double employeePay) {
-//        super(firstName, lastName, employeeSSN, hireDate, employeePay);
-//        this.employeePay = employeePay;
-//        this.employeeSSN = employeeSSN;
-//        this.hireDate = hireDate;
-//        this.firstName = firstName;
-//        this.lastName = lastName;
-//        this.employeeID = employeeID;
-//        this.salaryPlusCommisionRate = salaryPlusCommisionRate;
-//    }
+    public SalaryPlusComissionEmployee() {
+        super();
+        this.employeePay = employeePay;
+        this.employeeSSN = employeeSSN;
+        this.hireDate = hireDate;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.employeeID = employeeID;
+        this.salaryPlusCommisionRate = salaryPlusCommisionRate;
+    }
 
 
     

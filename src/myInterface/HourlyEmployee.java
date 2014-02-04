@@ -9,8 +9,7 @@ public class HourlyEmployee implements Employee {
     private String lastName;
     private double employeeID;
 
-    HourlyEmployee(String firstName, String lastName, int employeeSSN,
-            String hireDate) {
+    HourlyEmployee() {
         this.firstName = firstName;
         this.lastName = lastName;
         this.employeeSSN = employeeSSN;
